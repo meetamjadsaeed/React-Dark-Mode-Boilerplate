@@ -6,8 +6,8 @@ This is a boilerplate project for adding dark mode functionality to your React a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/dark-mode-boilerplate.git
-   cd dark-mode-boilerplate
+   git clone https://github.com/meetamjadsaeed/React-Dark-Mode-Boilerplate.git
+   cd React-Dark-Mode-Boilerplate
    ```
 
 ````
@@ -78,28 +78,4 @@ You can customize the dark mode settings (brightness, contrast, sepia) by modify
 ## License
 
 This project is licensed under the MIT License.
-
 ````
-
-6. **Commit Your Changes:**
-   - Commit all your changes to the repository.
-
-```bash
-git add .
-git commit -m "Initial commit with dark mode functionality"
-```
-
-### Step 4: Push to GitHub
-
-7. **Create a Repository on GitHub:**
-
-   - Go to GitHub and create a new repository with a suitable name, such as `dark-mode-boilerplate`.
-
-8. **Push Your Project:**
-   - Follow the instructions provided by GitHub to push your local repository to GitHub.
-
-```bash
-git remote add origin https://github.com/meetamjadsaeed/React-Dark-Mode-Boilerplate.git
-git branch -M main
-git push -u origin main
-```
