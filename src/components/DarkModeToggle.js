@@ -1,4 +1,3 @@
-// src/components/DarkModeToggle.js
 import React from "react";
 import useDarkMode from "../hooks/useDarkMode";
 
@@ -12,18 +11,18 @@ const DarkModeToggle = ({ customUI: CustomUI }) => {
   } = useDarkMode();
 
   const DefaultUI = () => (
-    <div class="darkmode-wrapper">
-      <div class="darkmode">
+    <div className="darkmode-wrapper">
+      <div className="darkmode">
         <input
           type="checkbox"
-          class="dark-checkbox"
+          className="dark-checkbox"
           id="dark-checkbox"
           onClick={toggleDarkMode}
         />
-        <label for="dark-checkbox" class="dark-label">
-          <i class="fas fa-moon darkmode-moon"></i>
-          <i class="fas fa-sun darkmode-sun"></i>
-          <div class="dark-mode-ball"></div>
+        <label htmlFor="dark-checkbox" className="dark-label">
+          <i className="fas fa-moon darkmode-moon"></i>
+          <i className="fas fa-sun darkmode-sun"></i>
+          <div className="dark-mode-ball"></div>
         </label>
       </div>
     </div>
