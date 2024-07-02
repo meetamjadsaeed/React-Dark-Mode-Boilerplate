@@ -5,12 +5,11 @@ This is a boilerplate project for adding dark mode functionality to your React a
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/meetamjadsaeed/React-Dark-Mode-Boilerplate.git
    cd React-Dark-Mode-Boilerplate
    ```
-
-````
 
 2. Install dependencies:
 
@@ -78,4 +77,3 @@ You can customize the dark mode settings (brightness, contrast, sepia) by modify
 ## License
 
 This project is licensed under the MIT License.
-````
